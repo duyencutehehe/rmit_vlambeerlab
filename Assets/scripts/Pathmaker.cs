@@ -17,8 +17,11 @@ public class Pathmaker : MonoBehaviour
 
     //	DECLARE CLASS MEMBER VARIABLES:
     //	Declare a private integer called counter that starts at 0; 		// counter will track how many floor tiles I've instantiated
+    private int counter = 0;
     //	Declare a public Transform called floorPrefab, assign the prefab in inspector;
+    public Transform floorPrefab;
     //	Declare a public Transform called pathmakerSpherePrefab, assign the prefab in inspector; 		// you'll have to make a "pathmakerSphere" prefab later
+    public Transform pathmakerSpherePrefab;
 
 
     void Update()
